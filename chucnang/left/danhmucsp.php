@@ -27,7 +27,7 @@
     </div>
     </form>
 
-
+<!-- Thêm một dòng mới dô đây  -->
 
 <p style="clear: both;"></p>
 <!-- <?php
