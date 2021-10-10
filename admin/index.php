@@ -127,9 +127,9 @@
 		//require("../includes/config.php");
 		
 
-		$sql = "SELECT user,pass FROM dangnhap";
-		$results = mysqli_query($con,$sql);
-		if($result->num_rows > 0) {
+		$sql = "SELECT user,pass FROM quantri";
+		$result = mysqli_query($con,$sql);
+		if ($result->num_rows == 0) {
 				?>
 				<script type="text/javascript">
 					alert("Tên Truy cập Hoặc Mật Khẩu chưa chính Xác.Vui Lòng Nhập Lại!");
@@ -138,7 +138,7 @@
 				<?php
 				exit();
 			} else {
-				$data=mysqli_fetch_assoc($results);
+				$data=mysqli_fetch_assoc($result);
 				$_SESSION['user'] = $data['user'];
 				$_SESSION['pass']=$data['pass'];
 				
@@ -171,7 +171,7 @@
           </div>
 
           <div class="item">
-            <img src="http://yesflower.vintech.vn/hinh-anh/quang-cao/1509801001.jpg" alt="New york" style="width:100%; height: 250px;S">
+            <img src="http://yesflower.vintech.vn/hinh-anh/quang-cao/1509801001.jpg" alt="New york" style="width:100%; height: 250px;">
           </div>
         </div>
 

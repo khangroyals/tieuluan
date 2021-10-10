@@ -15,15 +15,14 @@
         <div> 
             <div class="col-sm-3"> 
                 <h5 align="center"><b>Liên Hệ</b></h5> 
-                   <p>Email: ngocb1607096@student.ctu.edu.vn</p>
-                   <p>SĐT:090785921 </p>
+                   <p>Gmail: khangb1706924@student.ctu.edu.vn</p>
+                   <p>SĐT:0837004450 </p>
             </div>
         </div>
         <div> 
             <div class="col-sm-3"> 
                 <h5 align="center"><b>Mạng Xã Hội</b></h5> 
-                   <p>FaceBook: Hệ thống bán trang sức PTHN</p>
-                   <p>Zalo: Hồng Ngọc</p>
+                <!--  <p>FaceBook: </p> -->
             </div>
         </div>
 </footer>

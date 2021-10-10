@@ -20,7 +20,7 @@
           </div>
 
           <div class="item">
-            <img src="https://preciousle.com/uploaded/news/6%20banner-trang-suc-1.gif" alt="New york" style="width:100%; height: 500px;S">
+            <img src="https://preciousle.com/uploaded/news/6%20banner-trang-suc-1.gif" alt="New york" style="width:100%; height: 500px;">
           </div>
         </div>
 

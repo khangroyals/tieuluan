@@ -16,7 +16,7 @@
           <div class="form-group">
               <label class="control-label col-sm-2">Tài khoản:</label>
               <div class="col-sm-8">
-                <input type="text" class="form-control" name="taikhoan" placeholder="Nhập họ tên..." width="20px" required>
+                <input type="text" class="form-control" name="taikhoan" placeholder="Nhập tên tài khoản..." width="20px" required>
               </div>
           </div>
 
