@@ -22,7 +22,7 @@
         <div> 
             <div class="col-sm-3"> 
                 <h5 align="center"><b>Mạng Xã Hội</b></h5> 
-                <!--  <p>FaceBook: </p> -->
+                <p>FaceBook: <a href="https://www.facebook.com/vi.khang.104/">Shop Hoa</a> </p> 
             </div>
         </div>
 </footer>

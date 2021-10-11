@@ -19,7 +19,7 @@
           </div>
           <div class="form-group">
          <div class="panel-body">
-           <button type="submit" class="btn btn-default" name="log">Adim</button>
+           <button type="submit" class="btn btn-default" name="log">Admin</button>
             <button type="submit" class="btn btn-default" name="khach">Khách hàng</button>
         </div>
           </div>

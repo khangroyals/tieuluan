@@ -16,7 +16,7 @@
       Trang chủ</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="dropdown">
+      <!--<li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">Sản Phẩm
           <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -24,7 +24,7 @@
             <li><a href="index.php?xem=tsbnam">Chậu Hoa</a></li>
             <li><a href="index.php?xem=tsbnam">Bó Hoa</a></li>
           </ul>
-    </li>
+    </li>-->
       <li><a href="index.php?xem=gioithieu"><b class=" glyphicon glyphicon"></b>  Giới thiệu </a></li>
       <li><a href="index.php?xem=giohang"><span class=" glyphicon glyphicon-shopping-cart"></span>  Giỏ hàng </a></li>
     </ul>
