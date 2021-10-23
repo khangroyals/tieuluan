@@ -9,22 +9,13 @@
   <?php } ?>
   <div>
   <nav>
-  <div class="container-fluid" style="background-color:#F5A89A;">
+   <div class="container-fluid" style="background-color:#F5A89A;"><!-- #F5A89A -->
     <div class="navbar-header">
       <a class="navbar-brand" href="index.php"> 
          <i class="glyphicon glyphicon-home"></i>
       Trang chủ</a>
     </div>
     <ul class="nav navbar-nav">
-      <!--<li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Sản Phẩm
-          <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="index.php?xem=tsvnam" name="vang" >Giỏ Hoa</a></li>
-            <li><a href="index.php?xem=tsbnam">Chậu Hoa</a></li>
-            <li><a href="index.php?xem=tsbnam">Bó Hoa</a></li>
-          </ul>
-    </li>-->
       <li><a href="index.php?xem=gioithieu"><b class=" glyphicon glyphicon"></b>  Giới thiệu </a></li>
       <li><a href="index.php?xem=giohang"><span class=" glyphicon glyphicon-shopping-cart"></span>  Giỏ hàng </a></li>
     </ul>

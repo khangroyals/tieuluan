@@ -11,16 +11,22 @@
     <div class="item active">
       <img style="width:100%;height:300px" src="https://images.unsplash.com/photo-1528715471579-d1bcf0ba5e83?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1193&q=80" alt="...">
       <div class="carousel-caption">
-      
+
       </div>
     </div>
     <div class="item">
-      <img style="width:100%;height:300px" src="" alt="...">
+      <img style="width:100%;height:300px" src="https://aeros.vn/upload/images/trang-tri-shop-hoa-tuoi-3.jpg" alt="...">
       <div class="carousel-caption">
-        
+
       </div>
     </div>
-   
+
+    <div class="item">
+      <img style="width:100%;height:300px" src="https://thehekhoinghiep.com/wp-content/uploads/2017/12/Trang-tri-cua-hang-hoa-tuoi-9-1-825x510.jpg" alt="...">
+      <div class="carousel-caption">
+
+      </div>
+    </div>
   </div>
 
   <!-- Controls -->

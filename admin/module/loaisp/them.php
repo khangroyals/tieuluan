@@ -16,7 +16,7 @@
 		<td colspan="2"><div align="center">Thêm loại sản phẩm</div></td>
 	</tr>
 	<tr>
-		<td>Ten loai sản phẩm</td>
+		<td>Tên loại sản phẩm</td>
 		<td><input type="text" name="tenloaisp"></td>
 	</tr>
 
@@ -48,8 +48,8 @@ $run = mysqli_query($conn,$sql);
  <table width="50%" border="1" align="right">
 	<tr>
 		<td>STT</td>
-		<td>Id loai sp</td>
-		<td>Ten Loai San Pham</td>
+		<td>ID loại sản phẩm</td>
+		<td>Tên loại sản phẩm</td>
 		<td colspan="2" align="center">Quản lý</td>
 	</tr>
 	<?php
@@ -60,8 +60,8 @@ $run = mysqli_query($conn,$sql);
 		<td><?php echo $i; ?></td>
 		<td><?php echo $dong['idloaisp']; ?></td>
 		<td><?php echo $dong['tenloaisp']; ?></td>
-		<td><a href="tc.php?loaisp=quanliloaisanpham&ac=sua&id=<?php echo $dong['idloaisp'] ?>"> sua </a></td>
-		<td><a href="module/loaisp/xuli.php?id=<?php echo $dong['idloaisp']?>"> xoa </a></td>
+		<td><a href="tc.php?loaisp=quanliloaisanpham&ac=sua&id=<?php echo $dong['idloaisp'] ?>"> Sửa </a></td>
+		<td><a href="module/loaisp/xuli.php?id=<?php echo $dong['idloaisp']?>"> Xóa </a></td>
 	</tr>
 	<?php
 		$i++;
