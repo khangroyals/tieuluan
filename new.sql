@@ -109,7 +109,7 @@ CREATE TABLE `quantri` (
 --
 
 INSERT INTO `quantri` (`id_admin`, `user`, `pass`) VALUES
-(2, 'ngoc', '12456');
+(2, 'khang', '123');
 
 -- --------------------------------------------------------
 

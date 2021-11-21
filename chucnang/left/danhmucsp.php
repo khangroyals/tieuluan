@@ -17,7 +17,7 @@
         <div class="input-group">
         <table>
           <tr>
-        <input type="text" class="form-control" placeholder="Search flower..." name="searchtext">
+        <input type="text" class="form-control" placeholder="Tìm kiếm sản phẩm...." name="searchtext">
         <span class="input-group-btn">
         <input class="btn btn-default" type="submit" name="ok"  placeholder="Search">
         </span>
