@@ -147,16 +147,20 @@
   $conn = mysqli_connect("localhost","root","","new");
   if(isset($_POST['dangki'])){
     $hoten = $_POST['hoten'];
+    /* echo $hoten;
+    die(); */
     $taikhoan = $_POST['taikhoan'];
     $matkhau = $_POST['matkhau'];
     $xacnhan = $_POST['xacnhan'];
-    $dienthoai = $_POST['dienthoai'];
     $email = $_POST['email'];
     $diachi = $_POST['diachi'];
+    $dienthoai = $_POST['dienthoai'];
+    
 
     //kiểm tra tên tài khoản có tồn tại hay chưa
     $sql = mysqli_query($conn,"SELECT * FROM user WHERE taikhoan ='$taikhoan'");
-    if(isset($sql)){
+    $result=mysqli_num_rows($sql);
+    if($result>0){
       echo '<script type="text/javascript">
               alert("Tên tài khoản đã tồn tại");
             </script>';

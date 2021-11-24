@@ -7,7 +7,7 @@
 			$password = "";
 			$dbname = "new";
 			$conn = mysqli_connect($servername, $username, $password, $dbname);
-			$sql = "select * from khachhang";
+			$sql = "select * from user";
 			$run = mysqli_query($conn, $sql);
 
 			?>
@@ -27,10 +27,10 @@
 				?>
 					<tr>
 						<td><?php echo $i; ?></td>
-						<td><?php echo $dong['tenkh']; ?></td>
+						<td><?php echo $dong['hoten']; ?></td>
 						<td><?php echo $dong['email']; ?></td>
 						<td><?php echo $dong['dienthoai']; ?></td>
-						<td><?php echo $dong['diachikh']; ?></td>
+						<td><?php echo $dong['diachi']; ?></td>
 					</tr>
 				<?php
 					$i++;

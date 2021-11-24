@@ -9,7 +9,6 @@
 			$conn = mysqli_connect($servername, $username, $password, $dbname);
 			$sql = "select * from orders order by id_order desc";
 			$run = mysqli_query($conn, $sql);
-
 			?>
 
 			<h4 align="center">Thông tin đặt hàng</h4>
@@ -21,9 +20,9 @@
 					<td>Email</td>
 					<td>Số điện thoại</td>
 					<td>Địa chỉ</td>
-					<td>Tổng Tiền</td>
+					<td>Tổng tiền</td>
 					<td>Ngày đặt hàng</td>
-					<td>Xu Ly</td>
+					<td>Tình trạng</td>
 				</tr>
 				<?php
 				$i = 1;
@@ -49,7 +48,9 @@
 
 			<?php
 			if (isset($_GET['dathang']) == 'quanlidathang') {
-				$id = $_GET['id'];
+				$id = isset($_GET['id']) ? $_GET['id'] : '' ;
+				/* echo $id;
+				die(); */
 				$sql_chitiet = mysqli_query($conn, "SELECT * FROM orders, chitietdathang WHERE orders.id_order=chitietdathang.id_order AND orders.id_order ='$id'");
 			?>
 				<table width="45%" border="1" align="right">

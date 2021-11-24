@@ -32,14 +32,7 @@
         <input type="number" id="num" name="num" value="1" min="1">
 
         <button type="button" class="btn btn-primary"  onclick="addCart(<?php echo $row['idsp'];?>)" name="cart">Thêm vào giỏ hàng</button>
-        <!-- <a href="?mod=sanpham&act=add_cart&id=<?php echo $row['idsp']?>"> <button type="button" class="btn btn-primary" >Đặt hàng</button></a> -->
       </div><br><br><br><br>
-     <!-- <p id="ngang"></p>
-      <h4 align="left">Thông số sản phẩm</h4>
-      <p align="left">Khối lượng vàng: <b id="pricee"> <?php echo $row['khoiluong'].' '; ?> chỉ vàng</b></p>
-      <p align="left">Tuổi vàng:  <b id="pricee"> <?php echo number_format($row['tuoivang']).'K'; ?></b></p>
-      <p align="left">Chủng loại:  <b id="pricee"> <?php echo $row['chungloai']; ?></b></p>
-  -->
     </div>
 <div class="col-sm-10">
 <h3 align="left" >Giới thiệu sản phẩm</h4>

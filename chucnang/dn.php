@@ -19,8 +19,8 @@
           </div>
           <div class="form-group">
          <div class="panel-body">
-           <button type="submit" class="btn btn-default" name="log">Admin</button>
-            <button type="submit" class="btn btn-default" name="khach">Khách hàng</button>
+           <!-- <button type="submit" class="btn btn-default" name="log">Admin</button> -->
+            <button type="submit" class="btn btn-default" name="khach">Đăng nhập</button>
         </div>
           </div>
           <p>Nếu bạn chưa có tài khoản,vui lòng đăng ký <a href="index.php?xem=dk">tại đây.</a></p>
