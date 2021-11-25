@@ -32,13 +32,13 @@
 				?>
 					<tr>
 						<td><?php echo $i; ?></td>
-						<td><?php echo $dong['iddhdn']; ?></td>
+						<td><?php echo $dong['idkh']; ?></td>
 						<td><?php echo $dong['tenkh']; ?></td>
 						<td><?php echo $dong['idsp']; ?></td>
 						<td><?php echo $dong['tensp']; ?></td>
 						<td><?php echo $dong['tongtien']; ?></td>
 						<td><?php echo $dong['soluongsp']; ?></td>
-						<td><?php echo $dong['ngaydathang']; ?></td>
+						<td><?php echo $dong['ngaydathangdn']; ?></td>
 						<td><img src="module/sanpham/img/<?php echo $dong['hinhanh'] ?>" width="60" height="60"></td>
 						<td><a href="module/donhangdn/update.php?id=<?php echo $dong['iddhdn'] ?>">Duyệt đơn hàng</a></td>
 						<td><a href="module/donhangdn/xoa.php?id=<?php echo $dong['iddhdn'] ?>">xóa đơn hàng</a></td>

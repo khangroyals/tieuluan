@@ -31,3 +31,4 @@ function addNew($table, $data)
 		return $id_order;
 	}
 }
+?>
