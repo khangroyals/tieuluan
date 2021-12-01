@@ -44,7 +44,7 @@
 			  	$_POST["tongtien"] = $tongtientt;
 			  	$date = date(("Y-m-d H:i:s"));
 			  	$_POST["ngayorders"] = $date;
-			  	$table = "orders";
+			  	// $table = "orders";
 			  	$id_order = addNew($table, $_POST);
 			  	foreach ($_SESSION["cart"] as $key => $value) {
 			  		$price = $value['price'];

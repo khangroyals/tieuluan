@@ -17,11 +17,10 @@
 		        if($_SESSION['hoten'] =="" || $_SESSION['dienthoai']=="" || $_SESSION['email']=="" || $_SESSION['diachi']==""){
 	            ?>
 			 	<script type="text/javascript">
-			 	alert("Thiếu thông tin. Vui lòng nhập lại");
-			 	window.location="index.php?xem=giohang";
+					alert("Thiếu thông tin. Vui lòng nhập lại");
+					window.location="index.php?xem=giohang";
 			 	</script>
 			 	<?php
-	            
 	        }
 	       	}
            

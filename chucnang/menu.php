@@ -1,6 +1,6 @@
   <?php
     if (isset($_GET['ac'])&& $_GET['ac']=='logout') {
-        unset($_SESSION['taikhoan']);
+        session_unset();
   ?>
           <script type="text/javascript">
           alert("Bạn đã đăng xuất tài khoản.");

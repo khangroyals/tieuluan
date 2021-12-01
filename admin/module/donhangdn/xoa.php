@@ -16,7 +16,7 @@
 		show_array($_POST);
 		?>
 		<script type="text/javascript">
-	 	alert("Xóa đơn hàng thành công");
-	 	window.location="../../tc.php?dathang=quanlidathangdn";
+			alert("Xóa đơn hàng thành công");
+			window.location="../../tc.php?dathang=quanlidathangdn";
 	 	</script>
 		

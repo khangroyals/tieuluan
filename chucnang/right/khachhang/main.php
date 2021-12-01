@@ -1,5 +1,5 @@
  
-<h3>Xin chào <?php echo $_SESSION['khach']?></h3>
+<h3>Xin chào <?php echo $_SESSION['khachhang']?></h3>
 
         <form>
         <div class="col-sm-3"> 

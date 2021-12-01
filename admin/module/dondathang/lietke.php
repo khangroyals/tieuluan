@@ -2,13 +2,13 @@
 	<div class="row content">
 		<div class="col-sm-12 sidenav">
 			<?php
-			$servername = "localhost";
-			$username = "root";
-			$password = "";
-			$dbname = "new";
-			$conn = mysqli_connect($servername, $username, $password, $dbname);
-			$sql = "select * from orders order by id_order desc";
-			$run = mysqli_query($conn, $sql);
+				$servername = "localhost";
+				$username = "root";
+				$password = "";
+				$dbname = "new";
+				$conn = mysqli_connect($servername, $username, $password, $dbname);
+				$sql = "select * from orders order by id_order desc";
+				$run = mysqli_query($conn, $sql);
 			?>
 
 			<h4 align="center">Thông tin đặt hàng</h4>
@@ -49,8 +49,6 @@
 			<?php
 			if (isset($_GET['dathang']) == 'quanlidathang') {
 				$id = isset($_GET['id']) ? $_GET['id'] : '' ;
-				/* echo $id;
-				die(); */
 				$sql_chitiet = mysqli_query($conn, "SELECT * FROM orders, chitietdathang WHERE orders.id_order=chitietdathang.id_order AND orders.id_order ='$id'");
 			?>
 				<table width="45%" border="1" align="right">

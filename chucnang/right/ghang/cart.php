@@ -46,11 +46,13 @@
  		</table>
  </div>
 <?php
-		if (isset($_SESSION['khach'])) {
+		// print_r($_SESSION);
+		$idkhach=isset($_SESSION['taikhoan']) ? $_SESSION['taikhoan'] : '';
+		if ($idkhach !='') {
 			include('name.php');
-			}else{
-				 include('order.php');
-			}
+		}else{
+			include('order.php');
+		}
 	?>
 </div>
 

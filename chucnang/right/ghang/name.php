@@ -4,9 +4,10 @@
 				<button type="submit" class="btn btn-button" name="muahang">Mua Hàng</button>
 			</div>
 		</form>
-<?php   
-
- 		$mysqll = "select*from khachhang where idkh = '".$_SESSION['idkh']."'";
+	<?php   
+		$id = isset($_SESSION['idkh']) ? $_SESSION['idkh'] : '';
+		
+ 		$mysqll = "select*from khachhang where idkh = '$id'";
 		$myquery = mysqli_query($conn, $mysqll);
 		$row = mysqli_fetch_array($myquery);
 		 $idkh = $row['idkh'];
@@ -24,9 +25,7 @@
 	  		$image = $value['image'];
 	  		$sql="INSERT INTO chitietdathangdn (idkh, tenkh, idsp, tensp, tongtien, soluongsp, ngaydathangdn, hinhanh, trangthai) VALUES ('$idkh','$tenkh','$key','$name','$total','$num','$date','$image', 'Đang chờ duyệt')";
 			mysqli_query($conn, $sql);
-	  		
 	  	}
-	  	
 
 	  	unset($_SESSION['cart']);
 	  	?>
@@ -36,6 +35,4 @@
 	 	</script>
 	 	<?php
 	   }	
-	 
-
 ?> 
